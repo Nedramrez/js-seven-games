@@ -34,7 +34,8 @@ li a:hover {
 }
 
 .mole {
-  background-color: blue;
+  background-image: url('images/mole.png');
+  background-size: cover;
 }
 
 .square {
