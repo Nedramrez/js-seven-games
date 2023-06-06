@@ -58,6 +58,13 @@ li a:hover {
   width: 100px;
 }
 
+.user {
+  background-color: purple;
+  height: 20px;
+  position: absolute;
+  width: 100px;
+}
+
 #grid {
   width: 400px;
   height: 300px;
