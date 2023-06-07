@@ -36,6 +36,7 @@ li a:hover {
 .breakout-grid {
   border: solid black 1px;
   height: 300px;
+  margin-top: 80px;
   position: absolute;
   width: 560px;
 }
