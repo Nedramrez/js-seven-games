@@ -33,6 +33,14 @@ li a:hover {
   width: 606px;
 }
 
+.breakout-grid {
+  border: solid black 1px;
+  height: 300px;
+  margin-top: 80px;
+  position: absolute;
+  width: 560px;
+}
+
 .mole {
   background-image: url('images/mole.png');
   background-size: cover;
@@ -42,6 +50,28 @@ li a:hover {
   border: solid black 1px;
   height: 200px;
   width: 200px;
+}
+
+.block {
+  background-color: blue;
+  height: 20px;
+  position: absolute;
+  width: 100px;
+}
+
+.user {
+  background-color: purple;
+  height: 20px;
+  position: absolute;
+  width: 100px;
+}
+
+.ball {
+  background-color: red;
+  border-radius: 10px;
+  height: 20px;
+  position: absolute;
+  width: 20px;  
 }
 
 #grid {
