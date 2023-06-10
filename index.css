@@ -107,18 +107,6 @@ img {
 .starting-block {
   background-color: blue;
 }
-/* 
-.log-left, .log-right {
-  background-color: lightblue;
-}
- */
-/* .car-left, .car-right {
-  background-color: lightgrey;
-} */
-
-.frog {
-  background-color: green;
-}
 
 .l1, .l2, .l3 {
   background-color: brown;
@@ -134,4 +122,9 @@ img {
 
 .c2, .c3 {
   background-color: lightgrey;
+}
+
+/*It's important to place frog's style after the squares style. Otherwise the background color won't change.*/
+.frog {
+  background-color: green;
 }
