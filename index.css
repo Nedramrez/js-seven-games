@@ -85,3 +85,46 @@ img {
   width: 100px;
   height: 100px;
 }
+
+/* frogger */
+.frogger-grid {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 180px;
+}
+
+.frogger-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.l1, .l2, .l3 {
+  background-color: brown;
+}
+
+.l4, .l5 {
+  background-color: lightblue;
+}
+
+.c1 {
+  background-color: black;
+}
+
+.c2, .c3 {
+  background-color: lightgrey;
+}
+
+/*It's important to place frog's style after the squares style. Otherwise the background color won't change.*/
+.frog {
+  background-color: green;
+}
