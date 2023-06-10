@@ -85,3 +85,33 @@ img {
   width: 100px;
   height: 100px;
 }
+
+/* frogger */
+.frogger-grid {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 180px;
+}
+
+.frogger-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.log-left, .log-right {
+  background-color: lightblue;
+}
+
+.car-left, .car-right {
+  background-color: lightgrey;
+}
