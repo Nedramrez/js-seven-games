@@ -152,3 +152,35 @@ img {
   background-color: blue;
   border-radius: 10px;
 }
+
+/* Space invaders */
+
+.space-grid {
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.shooter {
+  background-color: green;
+}
+
+.laser {
+  background-color: yellow;
+}
+
+.boom {
+  background-color: red;
+}
